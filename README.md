@@ -6,6 +6,8 @@ The bounded coalescent conditions a genealogy on its time to the most recent com
 
 The inference experiments compare the bounded coalescent (BC) and standard coalescent (SC) likelihoods using random-integral (RI) and discretized methods.
 
+This public repository preserves the development history of the original `bingjingle/boundedcoal` repository. The paper is by Bingjing Tang, Shuangping Li, and Julia A. Palacios.
+
 ## Contents
 
 - [Figures and tables](#figures-and-tables)
@@ -33,7 +35,7 @@ The [analysis index](analyses/README.md) collects these analyses. Shared sampler
 With Git and R installed, clone the repository and redraw the saved posterior results:
 
 ```bash
-git clone https://github.com/bingjingle/boundedcoal.git
+git clone https://github.com/fifalsp/boundedcoal.git
 cd boundedcoal
 bash analyses/reproduction/run_all.sh redraw
 ```
